@@ -1,0 +1,31 @@
+.message{
+    width: 70%;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 400;
+    background-color:  rgba(0, 0, 0, 0.864);
+    color: rgb(255, 255, 255);
+    box-shadow: 24;
+    margin-left: 70px;
+}
+.message_request{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message_request p{
+    cursor: pointer;
+}
+
+.message_your{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}

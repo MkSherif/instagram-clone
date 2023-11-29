@@ -1,0 +1,81 @@
+.suggestions{
+    margin-right: 30px;
+}
+
+.suggestion_head{
+    color: grey;
+    font-weight: bold;
+}
+
+.username_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.relation{
+    color: grey;
+    font-size: 12px;
+}
+
+.suggestion_username {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.suggestions_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    margin-right: 30px;
+    padding-bottom: 6px;
+}
+
+.suggestion_btn{
+    color: white;
+    font-weight: bold;
+    background: 0;
+    border: 0;
+    transition: color .5s;
+}
+
+.suggestion_btn:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.follow_btn{
+    color: #0095f6;
+    font-weight: bold;
+    background: 0;
+    border: 0px; 
+    transition: color .5s;
+}
+
+.follow_btn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.username{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.avatar{
+    margin-right: 10px;
+}
+
+@media (max-width: 995px) {
+    .timeline__right{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,35 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.signup > img{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.signup > input{
+    background-color: #ffffff24 ;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+
+.signup > input:focus{
+    outline: 1px solid grey;
+}
+
+.signup > button{
+    padding: 12px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    background-color: #4298d1;
+}

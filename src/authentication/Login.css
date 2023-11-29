@@ -1,0 +1,76 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.login > img{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.login > input{
+    background-color: #ffffff24 ;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+
+.login > input:focus{
+    outline: 1px solid grey;
+}
+
+.login > button{
+    padding: 12px;
+    border-radius: 12px;
+    border: 0;
+    color: #fff;
+    background-color: #4298d1;
+    cursor: pointer;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 6px;
+  }
+  
+  .separator .line {
+    height: 1px;
+    width: 40%;
+    background-color: grey;
+  }
+
+  .other {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fb-login-btn {
+    margin: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #385185;
+    font-weight: 600;
+    background: transparent;
+  }
+  
+  .forgot-password {
+    font-size: 11px;
+    color: #4298d1;
+  }
+
+  .f{
+   margin-left: 5px;
+  }
